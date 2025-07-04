@@ -1,0 +1,64 @@
+Cybersecurity Internship – VPN Analysis Report  
+Intern: hemant 
+VPN Used: ProtonVPN (Free Version)  
+
+
+---
+
+🎯 **Objective:**  
+To evaluate the security and privacy functions of a VPN by performing a hands-on test using ProtonVPN. The task involved setting up a VPN, verifying IP change, checking encrypted traffic, and summarizing how VPNs contribute to secure internet use.
+
+---
+
+🔧 **Process:**
+
+1. Registered for a **free ProtonVPN** account.
+2. Installed ProtonVPN desktop client on Windows.
+3. Connected to a **free server (Netherlands)**.
+4. Verified IP change via [whatismyipaddress.com].
+5. Opened secure websites to confirm **HTTPS encryption**.
+6. Disconnected VPN to compare **speed and IP**.
+
+---
+
+📊 **Results:**
+
+| Action                    | Observation                                   |
+|---------------------------|-----------------------------------------------|
+| IP Masking                | ✅ Successfully changed IP address            |
+| HTTPS Confirmation        | ✅ Lock icon appeared (traffic encrypted)     |
+| Browsing Speed (VPN)      | ⚠️ Slight slowdown – expected                 |
+| Browsing Speed (No VPN)   | ✅ Back to normal                             |
+| DNS/IP Leak               | ❌ None observed                              |
+
+---
+
+🔐 **VPN Protocols (Used by ProtonVPN):**
+
+- **OpenVPN** – Secure, widely supported
+- **WireGuard** – Modern and faster
+- **IKEv2** – Mobile-friendly, fast reconnections
+
+---
+
+📚 **Benefits of Using a VPN:**
+
+- Encrypts your internet data, even on **public Wi-Fi**
+- Hides your real **IP and location**
+- Helps bypass geo-blocks and **government censorship**
+- Prevents **ISP monitoring** and throttling
+
+---
+
+⚠️ **Limitations:**
+
+- Speed may be slower on free servers
+- Free VPNs may lack advanced features (e.g., streaming support)
+- Some websites block known VPN IPs
+
+---
+
+✅ **Conclusion:**
+
+Using ProtonVPN demonstrated the core benefits of a VPN, especially IP masking and encrypted traffic. While the free version had limited servers and speed, it was effective for basic online security. VPNs are an essential tool in the cybersecurity toolbox for protecting privacy, especially in unsecured or public network environments.
+
